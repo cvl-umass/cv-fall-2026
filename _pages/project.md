@@ -2,30 +2,27 @@
 layout: page
 permalink: /project/
 title: Course Project
-description: Guidelines and suggestions for course projects
 ---
 
-Your class project is an opportunity for you to explore an interesting
-problem in the context of a real-world data sets in area of computer vision defined 
-broadly. This means that topics such as machine learning over visual
-data, ways to interact with visual data,
-computational photography, computer graphics, language-vision
-problems, computer vision applied to domains such as medical images,
-and so on, are all acceptable. 
+The course project is an opportunity to investigate a computer vision
+problem in greater depth. Projects may focus on a method, an empirical
+question, or an application involving images, video, or other visual data.
+Topics at the intersection of computer vision with machine learning,
+graphics, language, human-computer interaction, or scientific and medical
+applications are welcome.
 
-Each project will be assigned a TA as a project mentor;
-instructors and TAs will consult with you on your ideas, but of course
-the final responsibility to define and execute an interesting piece of
-work is yours. Your project will be worth 20% of your final class
-grade, and will have three deliverables:
+The project is worth **25% of the final course grade** and has three
+deliverables:
 
+| Deliverable | Course weight |
+|:------------|--------------:|
+| Proposal | 5% |
+| Presentation | 5% |
+| Final report | 15% |
+{: .table}
 
-1. **Proposal Abstract** : 2 pages excluding references (2%)
-2. **Presentation** : Poster presentation (3%)
-3. **Final Report** : 8 pages excluding references (15%)
-
-All write-ups should use the [CVPR style](https://cvpr2022.thecvf.com/sites/default/files/2021-10/cvpr2022-author_kit-v1_1-1.zip).
-
+All written submissions should use the
+[CVPR paper format](https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines).
 
 ***
 
@@ -34,163 +31,151 @@ All write-ups should use the [CVPR style](https://cvpr2022.thecvf.com/sites/defa
 
 ***
 
-### Team Formation
+### Teams and Scope
 
-You are responsible for forming project teams of two or three people.
-In some cases, we will also accept smaller or larger teams, but a 2-3 person group is preferred.
-If you have trouble forming a group, please send us an email and we
-will help you find project partners.
+Projects will normally be completed in teams of two. Individual projects or
+larger teams require prior approval. If you need help finding a partner,
+contact the course staff.
 
-### Scope
+The project should be a focused, semester-scale investigation rather than an
+attempt to build an entire production system. A strong project should:
 
-As a broad target, the final project should involve approximately as
-much work as a homework assignment for each student in the
-group. Thus the total work should scale roughly linearly with the
-group size, and be distributed roughly equally. An ambitious,
-well-done project from a group of two should be
-on the order of a conference paper in depth of experimentation. 
+* pose a clear question or technical objective;
+* build on relevant prior work;
+* implement or adapt an appropriate method;
+* include meaningful baselines and evaluation; and
+* analyze successes, failures, and limitations.
 
+The amount of work should scale with the size of the team and should be
+distributed reasonably evenly. Every final report must include a brief
+statement describing each member's contributions.
 
-### Project Proposal
+You may build on public datasets, code, and pretrained models, and you may use
+datasets you have worked with previously. However, the central work submitted
+for this project must be new work completed during the course. Any overlap
+with prior or concurrent research must be disclosed in the proposal and final
+report.
 
-You must turn in a brief project proposal that provides an overview of your idea and also contains a brief survey of related work on the topic.
-We will provide a list of suggested project ideas for you to choose from, though you may discuss other project ideas with us, whether applied or theoretical.
-Note that even though you can use datasets you have used before, **you
-cannot use work that you started prior to this class as your
-project**.
+### Proposal — 5%
 
-Proposals should be approximately **two pages long**, and should include the following information:
+The proposal should be approximately **two pages, excluding references**. Its
+purpose is to establish that the question is meaningful, the evaluation is
+credible, and the project is feasible within the semester.
 
-- Project title and list of group members.
-- Overview of project idea. This should be approximately half a page long.
-- A short literature survey of 4 or more relevant papers. The literature review should take up approximately one page.
-- Description of potential data sets to use for the experiments.
-- Plan of activities, including what you plan to complete by the
-  presentation date and how you plan to divide up the work.
+The proposal should include:
 
-The grading breakdown for the proposal is as follows:
+* the project title and team members;
+* the problem, motivation, and proposed contribution;
+* a brief discussion of at least four relevant papers;
+* the datasets, baselines, and evaluation metrics you plan to use;
+* a concrete plan of work, including the division of responsibilities; and
+* major technical or data risks and a reasonable fallback plan.
 
-- 40% for clear and concise description of proposed method
-- 40% for literature survey that covers at least 4 relevant papers
-- 10% for plan of activities
-- 10% for quality of writing
+The proposal will be evaluated on:
 
-The project proposal will be due at **11:59 PM on Thursday, October
-20**, and must be submitted via [Gradescope](). 
+| Criterion | Weight |
+|:----------|-------:|
+| Clarity and significance of the problem | 25% |
+| Understanding of related work | 20% |
+| Technical approach | 25% |
+| Evaluation plan | 20% |
+| Feasibility and quality of writing | 10% |
+{: .table}
 
-### Final Report
+The proposal is due at **11:59 PM on Thursday, October 22** through
+Gradescope.
 
-Your final report is expected to be **8 pages excluding references**,
-in accordance with the length requirements for a CVPR paper. It
-should have roughly the following format:
+### Presentation — 5%
 
+All teams will present their projects during the scheduled final-examination
+period. The presentation will normally take the form of a conference-style
+poster session; exact logistics will be announced later. Live demonstrations
+are encouraged when they materially help explain the work.
 
-- Introduction: problem definition and motivation
-- Background & Related Work: background info and literature survey
-- Methods
-  - Overview of your proposed method
-  - Intuition on why should it be better than the state of the art
-  - Details of models and algorithms that you developed
-- Experiments
-  - Description of your testbed and a list of questions your experiments are designed to answer
-  - Details of the experiments and results
-- Conclusion: discussion and future work
+The presentation should clearly communicate:
 
-The grading breakdown for the final report is as follows:
+* the problem and why it matters;
+* the central method or hypothesis;
+* the experimental setup and principal results;
+* important failure cases and limitations; and
+* the contribution of the project relative to the baselines and prior work.
 
-- 10% for introduction and literature survey
-- 30% for proposed method (soundness and originality)
-- 30% for correctness, completeness, and difficulty of experiments and figures
-- 10% for empirical and theoretical analysis of results and methods
-- 20% for quality of writing (clarity, organization, flow, etc.)
+The presentation will be evaluated on the clarity of the explanation, the
+quality of the technical evidence, the design of the poster or demonstration,
+and the team's ability to answer questions.
 
-The project final report will be due at **11:59 PM on Friday, December
-18**, and must be submitted via [Gradescope](). 
+### Final Report — 15%
 
-_Note that late days do not apply to the final report._
+The final report should be no more than **eight pages, excluding references**.
+It should read like a conference paper and clearly distinguish completed work
+from proposed extensions.
 
-### Presentation
+A typical report will contain:
 
-All project teams will present their work at the end of the semester.
-We will have a 2-3 hour long poster session.
-Each team should prepare a poster (similar in style to a conference
-poster) and present it during the allocated time.
-If applicable, live demonstrations of your software are highly
-encouraged.
+* **Introduction:** problem definition, motivation, and contributions;
+* **Related work:** the most relevant prior approaches and how the project
+  differs;
+* **Method:** the proposed approach, design choices, and implementation
+  details;
+* **Experiments:** datasets, baselines, metrics, experimental protocol, and
+  results;
+* **Analysis:** ablations, failure cases, limitations, or other evidence that
+  explains the results; and
+* **Conclusion:** principal findings and promising directions for future work.
 
-***
+The report will be evaluated on:
 
-### Project Suggestions
-You are encouraged to propose your own topics -- some of you already
-may have done so. Take a look at the the resources listed at the end
-of this page for potential topics. Below are some ideas:
-* Take a look at the latest papers from CVPR, ECCV, ICCV, NeurIPS,
-  and ICML to find topics, software, datasets which you can build
-  upon. 
-* Also check out the workshops associated with these conferences. 
-  For example, take a look at the recent [Fine-grained Visual
-  Recognition workshops](http://fgvc.org) for
-  datasets and Kaggle challenges related to fine-grained classifiction
-  tasks such as recognizing animal species, or product images.
-* The website [https://paperswithcode.com](https://paperswithcode.com)
-  tracks the state of the art across datasets. This is a quick way to
-  find baselines to compare with or build upon.
-* The wesbite [https://registry.opendata.aws](https://registry.opendata.aws) contains a number of publicly
-available datasets hosted on AWS. These include satellite imagery,
-RADAR and other data on which you can try out some computer vision
-techniques. For example see MistNet and RoostNet projects (contact
-Zezhou for details).
-* Explore the use of computer vision services on the cloud to solve some
-challenging problems. Some choices are [AWS Rekognition](https://aws.amazon.com/rekognition), 
-[Google cloud](https://cloud.google.com/vision), and  [Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision).
-* Generative modeling: Train and generate data on novel domains using
-  GAN, VQ-GAN, Diffusion models. Build an interface for interactively
-  edit images. 
-* Probing and understanding language and vision models: Models such as
-  CLIP (OpenAI) and ALIGN (Google) train multi-modal aligned
-  representations of images and text, which can be applied for example
-  to retrive images based on text, or even generate images based
-  on language (e.g., DALL-E). [Huggingface](https://huggingface.co/)
-  has open-source implementation of many of these models -- try to
-  probe these models on new datasets to understand their capabilities
-  and biases.
+| Criterion | Weight |
+|:----------|-------:|
+| Problem formulation and related work | 15% |
+| Technical approach | 20% |
+| Experimental design and results | 35% |
+| Analysis, limitations, and conclusions | 15% |
+| Clarity, organization, and reproducibility | 15% |
+{: .table}
 
-A sample of projects from a prior offering of the course:
-* Scene text recognition
-* Improving object detection using depth estimation
-* Dust removal from images
-* Fast face-retrieval using vocabulary trees on deep features
-* Hyperspectral image classification
-* Character recognition in movies
-* Could motion analysis
-* Analysis of medical images
-* Stereo reconstruction survey
-* Counting heads in images
-* Implementation of a VR engine
-* Poselet based person identification
-* Gaze tracker
-* Photo stitching across seasons/day-night
-* Segmentation using CNNs
+The final report is due at **11:59 PM on Friday, December 18** through
+Gradescope. Late days do not apply to the final report.
 
-***
+### Collaboration and Use of AI
+
+Collaboration within the project team is expected. Assistance from people
+outside the team and substantive use of AI-generated code, text, images, or
+experimental analysis must be disclosed in the proposal and final report.
+Regardless of the tools used, team members are responsible for verifying and
+understanding everything they submit.
+
+AI tools may assist with implementation, debugging, literature discovery, or
+editing, but they do not replace the project's intellectual contribution. The
+problem formulation, experimental reasoning, interpretation of results, and
+final claims must represent the team's own work. Fabricated citations,
+experiments, or results are violations of the University's Academic Integrity
+Policy.
+
+### Choosing a Topic
+
+You are encouraged to propose a topic connected to your interests. Possible
+directions include:
+
+* evaluating or adapting self-supervised and vision-language models;
+* open-vocabulary recognition, detection, or segmentation;
+* image or video generation, editing, and consistency;
+* correspondence, tracking, pose, or shape estimation;
+* neural rendering and 3D scene representations;
+* robustness, uncertainty, dataset shift, and evaluation; or
+* computer vision for scientific, medical, ecological, or remote-sensing
+  applications.
+
+Recent papers and workshop proceedings from CVPR, ICCV, ECCV, NeurIPS, and
+ICML are useful sources of ideas. A good project does not need to train a large
+model from scratch: careful evaluation, adaptation, or analysis of an existing
+method can make a strong contribution when it asks a clear question and
+provides convincing evidence.
 
 ### Computing Resources
 
-Some vision projects may involve large scale data and require GPU
-computing resources. We recommend you to check out "AWS Education" and
-"Google Cloud Platform".
-
-* AWS:
-  [https://aws.amazon.com/education/awseducate](https://aws.amazon.com/education/awseducate)
-  * UMass is an "AWS member institution", so you are in the higher
-allowance tier. Use your .edu email and the full school name
-"University of Massachusetts Amherst" when you register to get the
-full benefits (a total of $100 annually).
-  * To get GPUs, use g3 (up to 4 NVIDIA Tesla M60 GPUs) or p2 (up to 16
-NVIDIA K80 GPUs) instances in EC2. Check the pricing first and make
-your plan accordingly!
-* Google Cloud Platform:
-[https://cloud.google.com](https://cloud.google.com)
-	* You get $300 credits for the first 12 months, and always free on
-      their free-tier resources (not including GPUs)
-	  
+Computing instructions and available course resources will be announced
+separately. Projects should be scoped so that their core experiments are
+feasible with the available resources. Whenever possible, use public datasets,
+pretrained models, and reproducible evaluation pipelines rather than relying
+on large-scale training.

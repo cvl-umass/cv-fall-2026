@@ -1,230 +1,199 @@
-- date: 9/7
+- title: "Part 0: Course Setup and Logistics"
+
+
+- date: 9/8
   lecturer: Subhransu
   title: >
-    <strong>Introduction and logistics</strong>
-  logistics:
-    <span class="deadline">Setup Piazza, Moodle, Gradescope</span>
+    Course overview
   readings:
    - Szeliski book, Chapter 1
    - <a href="https://www.cs.princeton.edu/courses/archive/spring08/cos598B/Readings/ThorpeFizeMarlot1996.pdf">The speed of processing in the human visual system</a>, Thorpe et al., 1996
 
-- title: "Module 1: Image Formation and Representation"
-
-- date: 9/12
-  lecturer: Subhransu
-  title: <strong>Radiometry</strong>
+- date: 9/10
+  lecturer: Logan, Aaron
+  title: Python, NumPy, and Matplotlib tutorial
   readings:
-   - <a href="http://persci.mit.edu/pub_pdfs/dror_sctv_01.pdf">Surface reflectance estimation and natural illumination statistics</a>, Dror et al., 2001.
-   - <a href="http://www.sci.utah.edu/~gerig/CS6320-S2012/Materials/Forsyth-Ponce-SfS.pdf">Chapter 3</a> of Forsyth and Ponce book
-   - <a href="https://www.matthewtancik.com/nerf">NeRF</a>
-  logistics:
-   <span class="deadline">HW1 out (due 9/26)</span>
+  - <a href="https://cs231n.github.io/python-numpy-tutorial/">NumPy tutorial</a> (via Stanford CS231n)
+  - <a href="https://colab.research.google.com/drive/1lYkyZDypN5Cm2a77Su60n39Hq0z3F4VA?usp=sharing">Colab page</a>
 
-- date: 9/14
+- title: "Part I: Classical Computer Vision"
+
+- date: 9/15
   lecturer: Subhransu
-  title: <strong>Light and color</strong>
-  readings:
-  - Szeliski book, Chapter 2
-  - Basic Color Terms &#58; Their Universality and Evolution, Berlin and Kay, 1969 (book, <a href="https://en.wikipedia.org/wiki/Basic_Color_Terms">Wikipedia article</a>)
-  - <a href="https://www.ted.com/talks/beau_lotto_optical_illusions_show_how_we_see">Beau Lotto's TED talk</a>
-
-- date: 9/16
-  lecturer: Zezhou, Ashish
-  title: <strong>Python tutorial</strong> (Friday)
-  readings:
-  - <a href="https://colab.research.google.com/drive/1lYkyZDypN5Cm2a77Su60n39Hq0z3F4VA?usp=sharing">Collab page</a>
-
-- date: 9/19
-  lecturer: Subhransu
-  title: <strong>Light and color; Image formation</strong>
-  readings:
-  - Szeliski book, Chapter 2
-
-- date: 9/21
-  lecturer: Subhransu
-  title: <strong>Image formation</strong>
+  title: Cameras and geometric image formation
   readings:
   - Szeliski book, Chapter 2
   - <a href="https://en.wikipedia.org/wiki/Camera">Wikipedia article on camera</a>
   - <a href="https://ict.usc.edu/research/projects/light-stages/">Light stages at USC</a>
 
-- title: "Module 2: Basic Image Processing"
-
-- date: 9/26
+- date: 9/17
   lecturer: Subhransu
-  title: <strong>Modeling images</strong>
-  logistics:
-   <span class="deadline">HW2 out (due 10/10)</span>
+  title: Light, reflectance, color, and sensors
   readings:
-  - <a href="https://people.eecs.berkeley.edu/~efros/research/EfrosLeung.html">Texture synthesis by non-parametric sampling</a>, Efros and Leung, 99
-  - <a href="https://www.ipol.im/pub/art/2011/bcm_nlm/article.pdf">Non-local means denoising</a>, Buades et al., 11
-  - OpenAI <a href="https://openai.com/dall-e-2/">DALL&#183;E 2</a> and <a href="https://openai.com/blog/gpt-3-apps/">GPT3</a>
+  - Szeliski book, Chapter 2
+  - <a href="http://persci.mit.edu/pub_pdfs/dror_sctv_01.pdf">Surface reflectance estimation and natural illumination statistics</a>, Dror et al., 2001
+  - <a href="http://www.sci.utah.edu/~gerig/CS6320-S2012/Materials/Forsyth-Ponce-SfS.pdf">Chapter 3</a> of Forsyth and Ponce book
+  - Basic Color Terms &#58; Their Universality and Evolution, Berlin and Kay, 1969 (book, <a href="https://en.wikipedia.org/wiki/Basic_Color_Terms">Wikipedia article</a>)
+  - <a href="https://www.ted.com/talks/beau_lotto_optical_illusions_show_how_we_see">Beau Lotto's TED talk</a>
 
-- date: 9/28
+- date: 9/22
   lecturer: Subhransu
-  title: <strong>Linear filtering</strong>
+  title: Sampling, convolution, Fourier analysis, and image pyramids
   readings:
-  - Szeliski book, Chaper 3
+  - Szeliski book, Chapter 3
   - <a href="http://olivalab.mit.edu/hybridimage.htm">Hybrid images</a>
-  - <a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">Berkeley segmentation dataset</a>
+  - <a href="https://www.ipol.im/pub/art/2011/bcm_nlm/article.pdf">Non-local means denoising</a>, Buades et al., 2011
 
-- title: "Module 3: Correspondence, Alignment, Geometry"
-
-- date: 10/3
+- date: 9/24
   lecturer: Subhransu
-  title: <strong>Optical flow</strong>
-  readings:
-  - <a href="https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method">Lucas-Kanade optical flow</a>
-  - <a href="https://vision.middlebury.edu/stereo/data/">Middlebury stereo dataset</a>
-  - Szeliski book, Chapter 9
-
-- date: 10/5
-  lecturer: Subhransu
-  title: >
-       <strong>Feature detection and matching</strong>
+  title: Edges, corners, blobs, and scale space
   readings:
   - Szeliski book, Chapter 7.1
+  - <a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">Berkeley segmentation dataset</a>
 
-- date: 10/10
-  title: No class (Indigenous Peoples Day)
-
-- date: 10/12
+- date: 9/29
   lecturer: Subhransu
-  title: <strong>Image transformations and alignment</strong>
+  title: Local descriptors and correspondence
   readings:
-    - Szeliski book, Chapter 8.1
+  - Szeliski book, Chapter 7.1
+  - <a href="https://www.robots.ox.ac.uk/~vgg/software/vise/">VGG image search</a>
 
-- date: 10/17
+- date: 10/1
   lecturer: Subhransu
-  title: <strong>Applications of image alignment</strong>
+  title: Transformations, homographies, alignment, and robust estimation
   readings:
-    - Szeliski book, Chapter 8.2 & 11
-    - <a href="https://www.robots.ox.ac.uk/~vgg/software/vise/">VGG image search</a>
-  logistics:
-   <span class="deadline">HW3 out (due 11/7)</span>
+  - Szeliski book, Chapter 8.1 &amp; 8.2
 
-- title: "Module 4: Fundamentals of Neural Networks"
-
-- date: 10/19
+- date: 10/6
   lecturer: Subhransu
-  title: <strong>Intro to recognition</strong>
+  title: "Camera geometry: calibration, pose, and epipolar constraints"
   readings:
-    - <a href="https://people.eecs.berkeley.edu/~efros/courses/AP06/Papers/csurka-eccv-04.pdf">Visual categorization with bag of keypoints</a>, Csurka et al., 2004
-    - <a href="https://ieeexplore.ieee.org/document/1467360">Histogram of Oriented Gradients</a>, Dalal & Triggs, 2005
-    - <a href="https://www.nature.com/articles/290091a0">Textons, the elements of texture perception, and their interactions</a>, Julesz, 1981
-    - <a href="https://public.roboflow.com/">Computer vision datasets</a> (via Roboflow)
+  - Szeliski book, Chapter 11
 
-- date: 10/24
-  lecturer: Subhransu, <i>remote</i>
-  title: <strong>Project feedback</strong>
-
-- date: 10/26
-  lecturer: Subhransu, <i>remote</i>
-  title: <strong>Project feedback</strong>
-
-- date: 10/31
+- date: 10/8
   lecturer: Subhransu
-  title: <strong>Linear models</strong>
+  title: "Depth and 3D reconstruction: triangulation, stereo, and SfM"
   readings:
-    - <a href="https://link.springer.com/article/10.1007/BF02478259">Perceptron paper</a>, McColloch & Pitts, 1943
-    - <a href="https://en.wikipedia.org/wiki/Linear_classifier">Linear classifier</a>, Wikipedia
+  - Szeliski book, Chapter 12
+  - <a href="https://vision.middlebury.edu/stereo/data/">Middlebury stereo dataset</a>
 
-- date: 11/2
+- date: 10/13
   lecturer: Subhransu
-  title: <strong>Neural networks</strong>
+  title: Optical flow and point tracking
   readings:
-    - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791">LeNet</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3065386">AlexNet</a>
-    - <a href="https://www.image-net.org/">ImageNet</a>
-    - <a href="https://openai.com/blog/microscope/">OpenAI Microscope</a> (model visualizer)
-    - <a href="https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html">Pytorch CNN tutorial</a>
-- date: 11/7
+  - Szeliski book, Chapter 9
+  - <a href="https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method">Lucas-Kanade optical flow</a>
+
+- date: 10/15
+  title: "Midterm 1: classical vision"
+
+- title: "Part II: Modern Computer Vision"
+
+- date: 10/20
   lecturer: Subhransu
-  title: <strong>Neural networks</strong>
-  logistics:
-   <span class="deadline">HW4 out (due 11/30)</span>
-
-
-- title: "Module 5: Advanced Topics in Recognition"
-
-- date: 11/9
-  lecturer: Subhransu
-  title: <strong>Transfer learning</strong>
+  title: From classical recognition to learned representations
   readings:
-    - <a href="https://openaccess.thecvf.com/content_cvpr_workshops_2014/W15/papers/Razavian_CNN_Features_Off-the-Shelf_2014_CVPR_paper.pdf">CNNs off-the-shelf</a>, Razavian et al., 2014
-    - <a href="https://openaccess.thecvf.com/content_cvpr_2015/html/Cimpoi_Deep_Filter_Banks_2015_CVPR_paper.html">Deep Filter Banks</a>, Cimpoi et al., 2015
-    - <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Lin_Bilinear_CNN_Models_ICCV_2015_paper.html">Bilinear CNNs</a>, Lin et al., 2015
-    - <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.html">Taskonomy</a>, Zamir et al., 2018
-    - <a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Achille_Task2Vec_Task_Embedding_for_Meta-Learning_ICCV_2019_paper.html">Task2Vec</a>, Achille et al., 2019
+  - Szeliski book, Chapter 6
+  - <a href="https://people.eecs.berkeley.edu/~efros/courses/AP06/Papers/csurka-eccv-04.pdf">Visual categorization with bag of keypoints</a>, Csurka et al., 2004
+  - <a href="https://ieeexplore.ieee.org/document/1467360">Histogram of Oriented Gradients</a>, Dalal &amp; Triggs, 2005
+  - <a href="https://www.nature.com/articles/290091a0">Textons, the elements of texture perception, and their interactions</a>, Julesz, 1981
 
-
-- date: 11/14
+- date: 10/22
   lecturer: Subhransu
-  title: <strong>Transfer learning</strong>
-
-
-- date: 11/16
-  lecturer: Subhransu
-  title: <strong>Object detection</strong>
+  title: Convolutional neural networks for vision
   readings:
-    - <a href="https://ieeexplore.ieee.org/abstract/document/1467360">Dalal & Triggs</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-642-15567-3_13">Poselets</a>, <a href="https://link.springer.com/article/10.1007/s11263-013-0620-5">Selective search</a>
-    - <a href="https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html">R-CNN</a>, <a href="https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html">Fast R-CNN</a>, <a href="https://proceedings.neurips.cc/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html">Faster R-CNN</a>
-    - <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html">YOLO</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2">SSD</a>
+  - Szeliski book, Chapter 5
+  - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791">LeNet</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3065386">AlexNet</a>
+  - <a href="https://www.image-net.org/">ImageNet</a>
 
-- date: 11/21
+- date: 10/27
   lecturer: Subhransu
-  title: <strong>Object detection; Image segmentation</strong>
+  title: Convolutional neural networks for vision
   readings:
-    - <a href="https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html">Mask R-CNN</a>, He et al., ICCV 2017
-    - <a href="https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html">Fully convolutional networks</a>, Long & Shelhamer et al., CVPR 15
-    - <a href="https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/">UNet</a>, Ronneberger et al., MICCAI 15
-    - <a href="">Panoptic FCN</a>, Kirillov et al., CVPR 19
+  - <a href="https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html">Pytorch CNN tutorial</a>
 
-- date: 11/23
-  title: No class (Thanksgiving break)
-
-- date: 11/28
+- date: 10/29
   lecturer: Subhransu
-  title: <strong>Image generation</strong>
-  readings:
-    - <a href="https://arxiv.org/abs/1412.0035">Inverting deep representations</a>, Mahendran & Vedaldi, 2014
-    - <a href="https://papers.nips.cc/paper/2015/hash/a5e00132373a7031000fd987a3c9f87b-Abstract.html">Texture synthesis & style transfer using CNNs</a>, Gatys et al., 2015
-    - <a href="https://arxiv.org/abs/1603.03417">Texture networks</a>, Ulyanov et al., 2016
-    - <a href="https://arxiv.org/abs/1511.05197">Visualizing deep texture representations</a>, Lin & Maji, 2016
-    - <a href="https://dl.acm.org/doi/abs/10.1145/3422622">Generative adversarial networks</a>, Goodfellow et al., 2020 (CACM version)
-    - <a href="https://dmitryulyanov.github.io/deep_image_prior">Deep image prior</a>, Ulyanov et al., 2017
-    - Some theory on the deep image prior (DIP as a <a href="https://arxiv.org/abs/1904.07457">Gaussian process</a>, <a href="https://link.springer.com/article/10.1007/s11263-021-01572-7">Spectral bias</a> of DIP)
+  title: Vision transformers
 
-- date: 11/30
-  lecturer: Subhransu
-  title: <strong>Image generation</strong>
+- date: 11/3
+  title: No class &mdash; Election Day
 
-- date: 12/5
+- date: 11/5
   lecturer: Subhransu
-  title: <strong>Unsupervised learning</strong>
+  title: Self-supervised representation learning
   readings:
     - Colorization -  <a href="https://arxiv.org/abs/1603.08511">Zhang et al., 2016</a>, <a href="https://arxiv.org/abs/1603.06668">Larsson et al., 2016</a>
     - Context prediction -  <a href="https://arxiv.org/abs/1505.05192">Doersch et al., 2015</a>
-    - Jigsaw puzzle -  <a href="https://arxiv.org/abs/1603.09246">Noroozi & Favaro, 2016</a>
+    - Jigsaw puzzle -  <a href="https://arxiv.org/abs/1603.09246">Noroozi &amp; Favaro, 2016</a>
     - Image rotation - <a href="https://arxiv.org/abs/1803.07728">Gidaris et al., 2018</a>
-    - Instance discrimination - <a href="https://proceedings.neurips.cc/paper/2014/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html">Dosovitskiy et al., 2015</a>, <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Wu_Unsupervised_Feature_Learning_CVPR_2018_paper.html">Xu et al., 2018</a>, <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.html">MOCO</a>, <a href="https://arxiv.org/abs/2002.05709">SimCLR</a>, <a href="https://arxiv.org/abs/2006.07733">BYOL</a>
-    - 3D - <a href="https://link.springer.com/chapter/10.1007/978-3-030-58580-8_34">PointContrast</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-030-58607-2_28">Convex Decomposition</a>
-    - Audio -  <a href="https://link.springer.com/chapter/10.1007/978-3-319-46448-0_48">Owens et al., 2016</a>
-    - Video correspondence <a href="https://proceedings.neurips.cc/paper/2020/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html">Jabri et al., 2020</a>, Future prediction <a href="https://link.springer.com/chapter/10.1007/978-3-319-46478-7_51">Walker et al., 2016</a>
-    - Generative modeling -  <a href="https://arxiv.org/abs/2103.04379">RepurposingGANs 2021</a>, <a href="https://arxiv.org/abs/2104.06490">DatasetGAN 2021</a>
-    - Generative or Contrastive? <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Saha_GanOrCon_Are_Generative_Models_Useful_for_Few-Shot_Segmentation_CVPR_2022_paper.html">Saha et al., 22</a>
+    - Instance discrimination - <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Wu_Unsupervised_Feature_Learning_CVPR_2018_paper.html">Wu et al., 2018</a>, <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.html">MOCO</a>, <a href="https://arxiv.org/abs/2002.05709">SimCLR</a>, <a href="https://arxiv.org/abs/2006.07733">BYOL</a>
+    - Transfer learning - <a href="https://openaccess.thecvf.com/content_cvpr_workshops_2014/W15/papers/Razavian_CNN_Features_Off-the-Shelf_2014_CVPR_paper.pdf">CNNs off-the-shelf</a>, Razavian et al., 2014
 
-- date: 12/7
+- date: 11/10
   lecturer: Subhransu
-  title: <strong>Unsupervised learning</strong>
+  title: Vision-language foundation models
 
-- date: 12/12
+- date: 11/12
   lecturer: Subhransu
-  title: <strong>3D shape understanding</strong>
+  title: Object detection and open-vocabulary localization
   readings:
-    - <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.html">Multi-view CNN</a>
-    - <a href="https://ieeexplore.ieee.org/abstract/document/7353481">VoxNet</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3072959.3073608">O-CNN</a>
-    - <a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Qi_PointNet_Deep_Learning_CVPR_2017_paper.html">PointNet</a>, <a href="https://proceedings.neurips.cc/paper/2017/hash/f22e4747da1aa27e363d86d40ff442fe-Abstract.html">Deep Sets</a>, <a href="https://proceedings.neurips.cc/paper/2017/hash/d8bf84be3800d12f74d8b05e9b89836f-Abstract.html">PointNet++</a>, <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Su_SPLATNet_Sparse_Lattice_CVPR_2018_paper.html">SplatNet</a>
-    - <a href="https://openaccess.thecvf.com/content_eccv_2018_workshops/w18/html/Su_A_Deeper_Look_at_3D_Shape_Classifiers_ECCVW_2018_paper.html">A deeper look at 3D classifiers</a>, Su et al. 18
+    - <a href="https://ieeexplore.ieee.org/abstract/document/1467360">Dalal &amp; Triggs</a>, <a href="https://link.springer.com/article/10.1007/s11263-013-0620-5">Selective search</a>
+    - <a href="https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html">R-CNN</a>, <a href="https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html">Fast R-CNN</a>, <a href="https://proceedings.neurips.cc/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html">Faster R-CNN</a>
+    - <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html">YOLO</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2">SSD</a>
 
-- date: 12/13
-  title: Poster presentations (CS 150/151)
+- date: 11/17
+  lecturer: Subhransu
+  title: Semantic, instance, and promptable segmentation
+  readings:
+    - <a href="https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html">Fully convolutional networks</a>, Long &amp; Shelhamer et al., CVPR 2015
+    - <a href="https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/">UNet</a>, Ronneberger et al., MICCAI 2015
+    - <a href="https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html">Mask R-CNN</a>, He et al., ICCV 2017
+
+- date: 11/19
+  lecturer: Subhransu
+  title: Keypoints, articulated pose, and shape
+  readings:
+    - <a href="https://link.springer.com/chapter/10.1007/978-3-642-15567-3_13">Poselets</a>, Bourdev &amp; Malik, 2010
+
+- date: 11/24
+  title: No class &mdash; Wednesday schedule followed
+
+- date: 11/26
+  title: No class &mdash; Thanksgiving recess
+
+- date: 12/1
+  lecturer: Subhransu
+  title: Modern video understanding
+  readings:
+    - Video correspondence - <a href="https://proceedings.neurips.cc/paper/2020/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html">Jabri et al., 2020</a>
+    - Future prediction - <a href="https://link.springer.com/chapter/10.1007/978-3-319-46478-7_51">Walker et al., 2016</a>
+
+- date: 12/3
+  lecturer: Subhransu
+  title: Diffusion models, generation, and image editing
+  readings:
+    - <a href="https://arxiv.org/abs/1412.0035">Inverting deep representations</a>, Mahendran &amp; Vedaldi, 2014
+    - <a href="https://papers.nips.cc/paper/2015/hash/a5e00132373a7031000fd987a3c9f87b-Abstract.html">Texture synthesis &amp; style transfer using CNNs</a>, Gatys et al., 2015
+    - <a href="https://dl.acm.org/doi/abs/10.1145/3422622">Generative adversarial networks</a>, Goodfellow et al., 2020 (CACM version)
+    - <a href="https://dmitryulyanov.github.io/deep_image_prior">Deep image prior</a>, Ulyanov et al., 2017
+    - <a href="https://people.eecs.berkeley.edu/~efros/research/EfrosLeung.html">Texture synthesis by non-parametric sampling</a>, Efros &amp; Leung, 1999
+
+- date: 12/8
+  title: "Midterm 2: modern vision"
+
+- date: 12/10
+  lecturer: Subhransu
+  title: Neural rendering, NeRF, Gaussian splatting, and 3D vision
+  readings:
+    - <a href="https://www.matthewtancik.com/nerf">NeRF</a>, Mildenhall et al., 2020
+    - <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.html">Multi-view CNN</a>
+    - <a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Qi_PointNet_Deep_Learning_CVPR_2017_paper.html">PointNet</a>, <a href="https://proceedings.neurips.cc/paper/2017/hash/d8bf84be3800d12f74d8b05e9b89836f-Abstract.html">PointNet++</a>
+    - <a href="https://openaccess.thecvf.com/content_eccv_2018_workshops/w18/html/Su_A_Deeper_Look_at_3D_Shape_Classifiers_ECCVW_2018_paper.html">A deeper look at 3D shape classifiers</a>, Su et al., 2018
+
+- date: 12/15
+  lecturer: Subhransu
+  title: Reliable vision, research frontiers, and course synthesis
+
+- date: Final-exam period
+  title: Project poster/oral presentations

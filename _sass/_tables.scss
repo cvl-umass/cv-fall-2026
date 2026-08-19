@@ -260,3 +260,17 @@ th {
     }
   }
 }
+
+
+// Schedule table: darker header row, and row headers (the date column)
+// left unbolded so the date reads as ordinary cell text.
+.table {
+  > thead > tr > th {
+    background-color: $table-head-bg-color;
+    color: $table-head-text-color;
+  }
+
+  > tbody > tr > th {
+    font-weight: normal;
+  }
+}
