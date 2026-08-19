@@ -7,12 +7,13 @@
     Course overview
   readings:
    - Szeliski book, Chapter 1
-   - <a href="https://www.cs.princeton.edu/courses/archive/spring08/cos598B/Readings/ThorpeFizeMarlot1996.pdf">The speed of processing in the human visual system</a>, Thorpe et al., 1996
+   - <a href="https://www.cs.princeton.edu/courses/archive/spring08/cos598B/Readings/ThorpeFizeMarlot1996.pdf">Thorpe et al., 1996</a>
 
 - date: 9/10
   lecturer: Logan, Aaron
   title: Python, NumPy, and Matplotlib tutorial
   readings:
+  - Linear algebra [1,2], probability review
   - <a href="https://cs231n.github.io/python-numpy-tutorial/">NumPy tutorial</a> (via Stanford CS231n)
   - <a href="https://colab.research.google.com/drive/1lYkyZDypN5Cm2a77Su60n39Hq0z3F4VA?usp=sharing">Colab page</a>
 
@@ -23,7 +24,7 @@
   title: Cameras and geometric image formation
   readings:
   - Szeliski book, Chapter 2
-  - <a href="https://en.wikipedia.org/wiki/Camera">Wikipedia article on camera</a>
+  - <a href="https://en.wikipedia.org/wiki/Camera">Wikipedia camera</a>
   - <a href="https://ict.usc.edu/research/projects/light-stages/">Light stages at USC</a>
 
 - date: 9/17
@@ -31,9 +32,8 @@
   title: Light, reflectance, color, and sensors
   readings:
   - Szeliski book, Chapter 2
-  - <a href="http://persci.mit.edu/pub_pdfs/dror_sctv_01.pdf">Surface reflectance estimation and natural illumination statistics</a>, Dror et al., 2001
+  - <a href="http://persci.mit.edu/pub_pdfs/dror_sctv_01.pdf">Surface reflectance</a>, Dror et al., 2001
   - <a href="http://www.sci.utah.edu/~gerig/CS6320-S2012/Materials/Forsyth-Ponce-SfS.pdf">Chapter 3</a> of Forsyth and Ponce book
-  - Basic Color Terms &#58; Their Universality and Evolution, Berlin and Kay, 1969 (book, <a href="https://en.wikipedia.org/wiki/Basic_Color_Terms">Wikipedia article</a>)
   - <a href="https://www.ted.com/talks/beau_lotto_optical_illusions_show_how_we_see">Beau Lotto's TED talk</a>
 
 - date: 9/22
@@ -94,17 +94,15 @@
   title: From classical recognition to learned representations
   readings:
   - Szeliski book, Chapter 6
-  - <a href="https://people.eecs.berkeley.edu/~efros/courses/AP06/Papers/csurka-eccv-04.pdf">Visual categorization with bag of keypoints</a>, Csurka et al., 2004
-  - <a href="https://ieeexplore.ieee.org/document/1467360">Histogram of Oriented Gradients</a>, Dalal &amp; Triggs, 2005
-  - <a href="https://www.nature.com/articles/290091a0">Textons, the elements of texture perception, and their interactions</a>, Julesz, 1981
+  - <a href="https://people.eecs.berkeley.edu/~efros/courses/AP06/Papers/csurka-eccv-04.pdf">Bag of Words</a>, <a href="https://ieeexplore.ieee.org/document/1467360">HoG</a>, <a href="https://www.nature.com/articles/290091a0">Textons</a>
 
 - date: 10/22
   lecturer: Subhransu
   title: Convolutional neural networks for vision
   readings:
   - Szeliski book, Chapter 5
-  - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791">LeNet</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3065386">AlexNet</a>
   - <a href="https://www.image-net.org/">ImageNet</a>
+  - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791">LeNet</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3065386">AlexNet</a>, VGGNet, ResNet
 
 - date: 10/27
   lecturer: Subhransu
@@ -123,12 +121,8 @@
   lecturer: Subhransu
   title: Self-supervised representation learning
   readings:
-    - Colorization -  <a href="https://arxiv.org/abs/1603.08511">Zhang et al., 2016</a>, <a href="https://arxiv.org/abs/1603.06668">Larsson et al., 2016</a>
-    - Context prediction -  <a href="https://arxiv.org/abs/1505.05192">Doersch et al., 2015</a>
-    - Jigsaw puzzle -  <a href="https://arxiv.org/abs/1603.09246">Noroozi &amp; Favaro, 2016</a>
-    - Image rotation - <a href="https://arxiv.org/abs/1803.07728">Gidaris et al., 2018</a>
-    - Instance discrimination - <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Wu_Unsupervised_Feature_Learning_CVPR_2018_paper.html">Wu et al., 2018</a>, <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.html">MOCO</a>, <a href="https://arxiv.org/abs/2002.05709">SimCLR</a>, <a href="https://arxiv.org/abs/2006.07733">BYOL</a>
-    - Transfer learning - <a href="https://openaccess.thecvf.com/content_cvpr_workshops_2014/W15/papers/Razavian_CNN_Features_Off-the-Shelf_2014_CVPR_paper.pdf">CNNs off-the-shelf</a>, Razavian et al., 2014
+    - Colorization [<a href="https://arxiv.org/abs/1603.08511">1</a>, <a href="https://arxiv.org/abs/1603.06668">2</a>], <a href="https://arxiv.org/abs/1505.05192">Context</a>, <a href="https://arxiv.org/abs/1603.09246">Jigsaw</a>, <a href="https://arxiv.org/abs/1803.07728">Rotation</a>
+    - <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.html">MOCO</a>, <a href="https://arxiv.org/abs/2002.05709">SimCLR</a>, <a href="https://arxiv.org/abs/2006.07733">BYOL</a>
 
 - date: 11/10
   lecturer: Subhransu
@@ -146,9 +140,9 @@
   lecturer: Subhransu
   title: Semantic, instance, and promptable segmentation
   readings:
-    - <a href="https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html">Fully convolutional networks</a>, Long &amp; Shelhamer et al., CVPR 2015
+    - <a href="https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html">FCNs</a>
     - <a href="https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/">UNet</a>, Ronneberger et al., MICCAI 2015
-    - <a href="https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html">Mask R-CNN</a>, He et al., ICCV 2017
+    - <a href="https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html">Mask R-CNN</a>, He et al., ICCV 2017, SAM
 
 - date: 11/19
   lecturer: Subhransu
@@ -173,7 +167,7 @@
   lecturer: Subhransu
   title: Diffusion models, generation, and image editing
   readings:
-    - <a href="https://arxiv.org/abs/1412.0035">Inverting deep representations</a>, Mahendran &amp; Vedaldi, 2014
+    - <a href="https://arxiv.org/abs/1412.0035">Inverting deep representations</a>
     - <a href="https://papers.nips.cc/paper/2015/hash/a5e00132373a7031000fd987a3c9f87b-Abstract.html">Texture synthesis &amp; style transfer using CNNs</a>, Gatys et al., 2015
     - <a href="https://dl.acm.org/doi/abs/10.1145/3422622">Generative adversarial networks</a>, Goodfellow et al., 2020 (CACM version)
     - <a href="https://dmitryulyanov.github.io/deep_image_prior">Deep image prior</a>, Ulyanov et al., 2017
