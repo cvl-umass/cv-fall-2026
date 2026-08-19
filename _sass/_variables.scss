@@ -76,6 +76,12 @@ $code-color:        $dark-gray;
 $text-color:        $dark-gray;
 $background-color:  $white;
 
+// Top bar, matching the .navbar-custom palette on the 682 course site
+$navbar-bg-color:    $maroon;   // #881c1c
+$navbar-text-color:  $white;
+$navbar-title-color: $lighter-gray;
+$navbar-hover-color: #551111;
+
 // Links
 $link-color:        $theme-color;
 $link-hover-color:  darken($theme-color, 40%);

@@ -1,7 +1,5 @@
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
-    background-color: white;
-    opacity: 0.95;
+    background-color: $navbar-bg-color;
     position:fixed;
     left:0px;
     top:0px;
@@ -10,6 +8,11 @@
 
     a {
         font-size: 16px;
+        color: $navbar-text-color;
+
+        &:hover {
+            color: $navbar-text-color;
+        }
     }
 }
 
@@ -19,6 +22,7 @@
     line-height: $nav-height;
     // letter-spacing: -1px;
     margin-bottom: 0;
+    color: $navbar-title-color;
 }
 .site-nav {
     float: right;
@@ -33,10 +37,14 @@
     }
 
     .page-link{
-        line-height: $line-height;
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 10px;
+        // fill the full bar height so the hover state reads as a block,
+        // the way the Bootstrap navbar does on the 682 site
+        display: inline-block;
+        line-height: $nav-height;
+        padding: 0 15px;
+
+        &:hover {
+            background-color: $navbar-hover-color;
         }
     }
     // added for hamburger
@@ -44,8 +52,8 @@
         position: absolute;
         top: 9px;
         right: $horizontal-spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: $navbar-bg-color;
+        border: 1px solid $navbar-hover-color;
         border-radius: 5px;
         text-align: right;
 
@@ -68,7 +76,7 @@
             text-align: center;
 
             > svg path {
-                fill: $grey-color-dark;
+                fill: $navbar-text-color;
             }
         }
 
@@ -84,6 +92,7 @@
 
         .page-link {
             display: block;
+            line-height: $line-height;
             padding: 5px 10px;
 
             &:not(:last-child) {
