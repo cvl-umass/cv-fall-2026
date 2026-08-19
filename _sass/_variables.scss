@@ -236,7 +236,8 @@ $caption-font-size: 12px;
 $caption-color: #aaa;
 
 /* add on-palm to be consistent with other jekyll theme media queries */
-$content-width:    900px !default;
+/* matches the Bootstrap .container width used by the 682 course site */
+$content-width:    1170px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        768px !default;
