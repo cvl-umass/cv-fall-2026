@@ -56,16 +56,9 @@ eligibility for makeup exams.
 ### Homework Assignments
 
 There will be 5 homework assignments over the course of the semester,
-each worth 5% of your final grade. These assignments may contain
+each worth approximately 5% of your final grade. These assignments may contain
 material that has been covered by published papers and webpages.
 
-The assignments follow the arc of the lectures:
-
-1. **Images and filtering:** sampling, convolution, pyramids, camera effects
-2. **Correspondence and alignment:** descriptors, matching, homographies, RANSAC
-3. **Geometry and motion:** stereo, reconstruction, or optical flow
-4. **Representations:** CNN, self-supervised, and vision-language features
-5. **Modern vision:** segmentation, generation, or neural 3D
 
 #### Guided Self-Assessment
 
@@ -91,7 +84,7 @@ Your **homework grade** is based on the following process rubric:
 | Accurate and thoughtful self-assessment |    50% |
  {: .table}                              
 
-A serious original attempt addresses every problem, explains the approach taken, and reflects your own understanding. An accurate and thoughtful self-assessment identifies errors honestly, applies the rubric correctly, provides genuine corrections, and explains the source of each substantive mistake.
+A serious original attempt addresses every problem, explains the approach taken, and reflects your own understanding. An accurate and thoughtful self-assessment identifies errors honestly, applies the rubric correctly, and explains the source of each substantive mistake.
 
 You are not penalized for reaching an incorrect answer in your original submission. You may, however, lose credit for an incomplete or superficial attempt, an answer you cannot explain, inaccurate self-scoring, incomplete corrections, or an error analysis that does not engage with what went wrong.
 
