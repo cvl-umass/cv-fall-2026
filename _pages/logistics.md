@@ -121,7 +121,7 @@ either up or down.
 
 ### Project
 
-The project will be carried out in groups of 2 people, and has four
+The project will be carried out in groups of two or more people, and has three
 main parts: a proposal, a final report, and a
 poster/oral presentation. The project is an integral part of this
 class, and is designed to be as similar as possible to researching and
