@@ -5,6 +5,7 @@
   lecturer: Subhransu
   title: >
     Course overview
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQCfSzCNFEl1R5uk4K60Q8IYAXVad2kv7z-SsbJZrXywnl8?e=KUlO5b"
   readings:
    - Szeliski book, Chapter 1
    - <a href="https://www.cs.princeton.edu/courses/archive/spring08/cos598B/Readings/ThorpeFizeMarlot1996.pdf">Thorpe et al., 1996</a>
@@ -22,6 +23,7 @@
 - date: 9/15
   lecturer: Subhransu
   title: Cameras and geometric image formation
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQBYgLKrpm8TSYfL0hmVL77KAQs3C83HjCI0TslDWQIH5Bo?e=Vf0fhm"
   readings:
   - Szeliski book, Chapter 2
   - <a href="https://en.wikipedia.org/wiki/Camera">Wikipedia camera</a>

@@ -48,8 +48,24 @@ year: 2026
         {% endif %}
     </td>
     <td>
-        {% if lecture.readings %}
+        {% comment %}
+          `slides:` in _data/lectures.yml accepts either form:
+            - a full URL   (https://umass-my.sharepoint.com/...) -- used as-is
+            - a bare filename (lec01_intro.pdf) -- served from assets/lectures/
+          Data files do not process Liquid, so the baseurl has to be applied
+          here via relative_url; a bare relative href would resolve against
+          /lectures/ and 404.
+        {% endcomment %}
+        {% if lecture.slides or lecture.readings %}
         <ul>
+        {% if lecture.slides %}
+            {% if lecture.slides contains '://' %}
+            {% assign slides_url = lecture.slides %}
+            {% else %}
+            {% assign slides_url = lecture.slides | prepend: '/assets/lectures/' | relative_url %}
+            {% endif %}
+            <li><a href="{{ slides_url }}">slides</a></li>
+        {% endif %}
         {% for reading in lecture.readings %}
             <li>{{ reading }}</li>
         {% endfor %}
