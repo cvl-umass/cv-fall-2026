@@ -14,7 +14,7 @@
   lecturer: Logan, Aaron
   title: Python, NumPy, and Matplotlib tutorial
   readings:
-  - Linear algebra [1,2], probability review
+  - Linear algebra [<a href="https://cseweb.ucsd.edu/classes/wi05/cse252a/linear_algebra_review.pdf">1</a>, <a href="https://people.cs.umass.edu/~smaji/teaching/670/vectornotes.pdf">2</a>], probability review [<a href="https://cseweb.ucsd.edu/classes/wi05/cse252a/random_var_review.pdf">1</a>]
   - <a href="https://cs231n.github.io/python-numpy-tutorial/">NumPy tutorial</a> (via Stanford CS231n)
   - <a href="https://colab.research.google.com/drive/1lYkyZDypN5Cm2a77Su60n39Hq0z3F4VA?usp=sharing">Colab page</a>
 
@@ -32,6 +32,7 @@
 - date: 9/17
   lecturer: Subhransu
   title: Light, reflectance, color, and sensors
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQA-OhTZ8VAYQqbP2CRC90doAbJoGYTeVVlS1MnR9A7xFiY?e=I2qWeb"
   readings:
   - Szeliski book, Chapter 2
   - <a href="http://persci.mit.edu/pub_pdfs/dror_sctv_01.pdf">Surface reflectance</a>, Dror et al., 2001

@@ -64,7 +64,7 @@ year: 2026
             {% else %}
             {% assign slides_url = lecture.slides | prepend: '/assets/lectures/' | relative_url %}
             {% endif %}
-            <li><a href="{{ slides_url }}">slides</a></li>
+            <li>Lecture slides [<a href="{{ slides_url }}">pdf</a>]</li>
         {% endif %}
         {% for reading in lecture.readings %}
             <li>{{ reading }}</li>
