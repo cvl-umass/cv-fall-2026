@@ -41,7 +41,8 @@
 
 - date: 9/22
   lecturer: Subhransu
-  title: Sampling, convolution, Fourier analysis, and image pyramids
+  title: "Light, reflectance, color, and sensors II"
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQBrCNS2HTF3RpV3zP0frPBDAaQf184vdCpN28AaH6bunWE?e=wiEepK"
   readings:
   - Szeliski book, Chapter 3
   - <a href="http://olivalab.mit.edu/hybridimage.htm">Hybrid images</a>
@@ -49,14 +50,15 @@
 
 - date: 9/24
   lecturer: Subhransu
-  title: Edges, corners, blobs, and scale space
+  title: Modeling images
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQBi9omlKVhSRbfcWzXxJRBrAXZ7WsIvHcW82KKj2popiRw?e=5jGJn4"
   readings:
   - Szeliski book, Chapter 7.1
   - <a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">Berkeley segmentation dataset</a>
 
 - date: 9/29
   lecturer: Subhransu
-  title: Local descriptors and correspondence
+  title: "Convolutions and their applications"
   readings:
   - Szeliski book, Chapter 7.1
   - <a href="https://www.robots.ox.ac.uk/~vgg/software/vise/">VGG image search</a>
@@ -69,7 +71,7 @@
 
 - date: 10/6
   lecturer: Subhransu
-  title: "Camera geometry: calibration, pose, and epipolar constraints"
+  title: "Transformations, homographies, alignment, and robust estimation II"
   readings:
   - Szeliski book, Chapter 11
 
