@@ -59,6 +59,7 @@
 - date: 9/29
   lecturer: Subhransu
   title: "Convolutions and their applications"
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQDu4GKEzD9vSpbuO03qg7iFAbBaGffVBvy5Ht_KuhuvZlo?e=k9cs5w"
   readings:
   - Szeliski book, Chapter 7.1
   - <a href="https://www.robots.ox.ac.uk/~vgg/software/vise/">VGG image search</a>
