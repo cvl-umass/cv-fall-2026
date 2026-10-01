@@ -66,13 +66,16 @@
 
 - date: 10/1
   lecturer: Subhransu
-  title: Transformations, homographies, alignment, and robust estimation
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQCgUJUuM-0dQrmcb_e5Z5pOAS1kZ8jY3v13meHCqE02PKQ?e=qYHuFh"
+  title: "Local features: corner and blob detection"
   readings:
   - Szeliski book, Chapter 8.1 &amp; 8.2
+  - <a href="https://en.wikipedia.org/wiki/Harris_corner_detector">Harris corners</a>
+  - <a href="https://www.cs.princeton.edu/courses/archive/fall08/cos429/CourseMaterials/lecture12/ijcv04.pdf">SIFT</a>, <a href="https://docs.opencv.org/4.13.0/da/df5/tutorial_py_sift_intro.html">OpenCV demo</a>
 
 - date: 10/6
   lecturer: Subhransu
-  title: "Transformations, homographies, alignment, and robust estimation II"
+  title: "Transformations, alignment, and robust estimation"
   readings:
   - Szeliski book, Chapter 11
 
