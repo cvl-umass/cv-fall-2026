@@ -76,22 +76,25 @@
 - date: 10/6
   lecturer: Subhransu
   title: "Transformations, alignment, and robust estimation"
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQCCIPcUCBaIToS4QEgeROhjAcpPWkL1L27gmMuqqJZ-mSA?e=99DSSQ"
   readings:
   - Szeliski book, Chapter 11
 
 - date: 10/8
   lecturer: Subhransu
-  title: "Depth and 3D reconstruction: triangulation, stereo, and SfM"
+  title: "Optical flow"
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQDl7p1Sew8qRbf6tQyTLgkmAaJEE9-mMk3dIR7Zrd3nQbA?e=mOetPJ"
   readings:
   - Szeliski book, Chapter 12
+  - <a href="https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method">Lucas-Kanade optical flow</a>
   - <a href="https://vision.middlebury.edu/stereo/data/">Middlebury stereo dataset</a>
+  - <a href="https://github.com/princeton-vl/raft">RAFT</a>, <a href="https://jianghz.me/projects/superslomo/">Super SloMo</a>
 
 - date: 10/13
   lecturer: Subhransu
-  title: Optical flow and point tracking
+  title: Alignment applications
   readings:
   - Szeliski book, Chapter 9
-  - <a href="https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method">Lucas-Kanade optical flow</a>
 
 - date: 10/15
   title: "Midterm 1: classical vision"
