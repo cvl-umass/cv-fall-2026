@@ -44,7 +44,7 @@
   title: "Light, reflectance, color, and sensors II"
   slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQBrCNS2HTF3RpV3zP0frPBDAaQf184vdCpN28AaH6bunWE?e=wiEepK"
   readings:
-  - Szeliski book, Chapter 3
+  - Szeliski book, Chapter 2
   - <a href="http://olivalab.mit.edu/hybridimage.htm">Hybrid images</a>
   - <a href="https://www.ipol.im/pub/art/2011/bcm_nlm/article.pdf">Non-local means denoising</a>, Buades et al., 2011
 
@@ -53,7 +53,7 @@
   title: Modeling images
   slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQBi9omlKVhSRbfcWzXxJRBrAXZ7WsIvHcW82KKj2popiRw?e=5jGJn4"
   readings:
-  - Szeliski book, Chapter 7.1
+  - Szeliski book, Chapter 10
   - <a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/">Berkeley segmentation dataset</a>
 
 - date: 9/29
@@ -61,7 +61,7 @@
   title: "Convolutions and their applications"
   slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQDu4GKEzD9vSpbuO03qg7iFAbBaGffVBvy5Ht_KuhuvZlo?e=k9cs5w"
   readings:
-  - Szeliski book, Chapter 7.1
+  - Szeliski book, Chapter 2, 3
   - <a href="https://www.robots.ox.ac.uk/~vgg/software/vise/">VGG image search</a>
 
 - date: 10/1
@@ -69,7 +69,7 @@
   slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQCgUJUuM-0dQrmcb_e5Z5pOAS1kZ8jY3v13meHCqE02PKQ?e=qYHuFh"
   title: "Local features: corner and blob detection"
   readings:
-  - Szeliski book, Chapter 8.1 &amp; 8.2
+  - Szeliski book, Chapter 7
   - <a href="https://en.wikipedia.org/wiki/Harris_corner_detector">Harris corners</a>
   - <a href="https://www.cs.princeton.edu/courses/archive/fall08/cos429/CourseMaterials/lecture12/ijcv04.pdf">SIFT</a>, <a href="https://docs.opencv.org/4.13.0/da/df5/tutorial_py_sift_intro.html">OpenCV demo</a>
 
@@ -78,23 +78,24 @@
   title: "Transformations, alignment, and robust estimation"
   slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQCCIPcUCBaIToS4QEgeROhjAcpPWkL1L27gmMuqqJZ-mSA?e=99DSSQ"
   readings:
-  - Szeliski book, Chapter 11
+  - Szeliski book, Chapter 8
 
 - date: 10/8
   lecturer: Subhransu
-  title: "Optical flow"
+  title: "Optical flow, two-view stereo"
   slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQDl7p1Sew8qRbf6tQyTLgkmAaJEE9-mMk3dIR7Zrd3nQbA?e=mOetPJ"
   readings:
-  - Szeliski book, Chapter 12
+  - Szeliski book, Chapter 9
   - <a href="https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method">Lucas-Kanade optical flow</a>
   - <a href="https://vision.middlebury.edu/stereo/data/">Middlebury stereo dataset</a>
   - <a href="https://github.com/princeton-vl/raft">RAFT</a>, <a href="https://jianghz.me/projects/superslomo/">Super SloMo</a>
 
 - date: 10/13
   lecturer: Subhransu
-  title: Alignment applications
+  title: "Alignment application: multi-view stereo, SfM, image search"
+  slides: "https://umass-my.sharepoint.com/:b:/g/personal/smaji_umass_edu/IQBx6_dWJyaaRJAXmCQfMXYpAQRMZy8Smaov6VnEL-0RmE0?e=fU0MTn"
   readings:
-  - Szeliski book, Chapter 9
+  - Szeliski book, Chapter 11, 12, 13
 
 - date: 10/15
   title: "Midterm 1: classical vision"
