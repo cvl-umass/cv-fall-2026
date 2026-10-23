@@ -113,10 +113,9 @@
 - date: 10/22
   lecturer: Subhransu
   title: Nearest neighbor classifiers, linear classifiers, loss functions
+  slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec12%5Fmachine%5Flearning%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQrRpvHB%5FdoxS4IlFaSitFiuEgUCllGPidphSNaHPJT1YHlq%2Dg"
   readings:
   - Szeliski book, Chapter 5
-  - <a href="https://www.image-net.org/">ImageNet</a>
-  - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791">LeNet</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3065386">AlexNet</a>, VGGNet, ResNet
 
 - date: 10/27
   lecturer: Subhransu
@@ -127,6 +126,8 @@
   title: Convolutional networks
   readings:
   - <a href="https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html">Pytorch CNN tutorial</a>
+  - <a href="https://www.image-net.org/">ImageNet</a>
+  - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791">LeNet</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3065386">AlexNet</a>, VGGNet, ResNet
 
 - date: 11/3
   title: No class &mdash; Election Day
