@@ -112,18 +112,19 @@
 
 - date: 10/22
   lecturer: Subhransu
-  title: Nearest neighbor classifiers, linear classifiers, loss functions
+  title: Nearest neighbor classifiers, linear classifiers, loss functions, regularization
   slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec12%5Fmachine%5Flearning%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQrRpvHB%5FdoxS4IlFaSitFiuEgUCllGPidphSNaHPJT1YHlq%2Dg"
   readings:
   - Szeliski book, Chapter 5
 
 - date: 10/27
   lecturer: Subhransu
-  title: Regularization, optimization, multiple layers
+  slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec13%5Fopt%5Fnn%5Fcnn%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQp1I%5F9R06gCToQkthNH2UPlEgUCVO13yNgOydfpX9Y2W%5Fw9Gw"
+  title: Gradients, optimization, neural networks, convolutional layers
 
 - date: 10/29
   lecturer: Subhransu
-  title: Convolutional networks
+  title: Convnet architectures
   readings:
   - <a href="https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html">Pytorch CNN tutorial</a>
   - <a href="https://www.image-net.org/">ImageNet</a>
