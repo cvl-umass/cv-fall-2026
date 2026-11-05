@@ -136,19 +136,20 @@
 
 - date: 11/5
   lecturer: Subhransu
-  title: Object detection and image segmentation
+  title: Image segmentation and object detection
+  slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec15%5Fdetection%5Fand%5Fsegmentation%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQpEc3ZnBAepRZd5ztJFiVMUEgUCvJq8j9YGx6rjSIX5RiMgcQ"
   readings:
-    - <a href="https://ieeexplore.ieee.org/abstract/document/1467360">Dalal &amp; Triggs</a>, <a href="https://link.springer.com/article/10.1007/s11263-013-0620-5">Selective search</a>
+    - <a href="https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html">FCNs</a>, <a href="https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/">UNet</a>
     - <a href="https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html">R-CNN</a>, <a href="https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html">Fast R-CNN</a>, <a href="https://proceedings.neurips.cc/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html">Faster R-CNN</a>
-    - <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html">YOLO</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2">SSD</a>
+
 
 - date: 11/10
   lecturer: Subhransu
-  title: Object detection and image segmentation
+  title:  Image segmentation and object detection
   readings:
-    - <a href="https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html">FCNs</a>
-    - <a href="https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/">UNet</a>, Ronneberger et al., MICCAI 2015
-    - <a href="https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html">Mask R-CNN</a>, He et al., ICCV 2017, SAM
+    - <a href="https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html">Mask R-CNN</a>
+    - <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html">YOLO</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2">SSD</a>
+    - <a href="https://segment-anything.metademolab.com/">Segment Anything</a>
 
 - date: 11/12
   lecturer: Subhransu
