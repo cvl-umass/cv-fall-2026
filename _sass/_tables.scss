@@ -274,3 +274,10 @@ th {
     font-weight: normal;
   }
 }
+
+// The global `ul { margin-bottom: 1rem }` rule otherwise leaves a gap under
+// lists inside table cells (e.g. the course-materials column on the schedule),
+// making rows with a list taller than rows without one.
+.table td > ul:last-child {
+  margin-bottom: 0;
+}

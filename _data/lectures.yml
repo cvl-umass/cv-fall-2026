@@ -170,8 +170,6 @@
   lecturer: Subhransu
   title: Recurrent neural networks
   readings:
-    - Video correspondence - <a href="https://proceedings.neurips.cc/paper/2020/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html">Jabri et al., 2020</a>
-    - Future prediction - <a href="https://link.springer.com/chapter/10.1007/978-3-319-46478-7_51">Walker et al., 2016</a>
 
 - date: 11/24
   title: No class &mdash; Wednesday schedule followed
@@ -194,10 +192,8 @@
 
 - date: 12/10
   lecturer: Subhransu
-  title: Self-supervised learning
+  title: Generative modeling
   readings:
-    - Colorization [<a href="https://arxiv.org/abs/1603.08511">1</a>, <a href="https://arxiv.org/abs/1603.06668">2</a>], <a href="https://arxiv.org/abs/1505.05192">Context</a>, <a href="https://arxiv.org/abs/1603.09246">Jigsaw</a>, <a href="https://arxiv.org/abs/1803.07728">Rotation</a>
-    - <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.html">MOCO</a>, <a href="https://arxiv.org/abs/2002.05709">SimCLR</a>, <a href="https://arxiv.org/abs/2006.07733">BYOL</a>
 
 - date: 12/15
   lecturer: Subhransu
