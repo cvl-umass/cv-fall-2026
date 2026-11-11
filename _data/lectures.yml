@@ -145,7 +145,8 @@
 
 - date: 11/10
   lecturer: Subhransu
-  title:  Image segmentation and object detection
+  title:  Image segmentation and object detection II
+  slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec16%5Fdetection%5Fand%5Fsegmentation2%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQrTwduagewxTa2aD0iBZCypEgUCT%2D9Dky%2DSILr41meT6luAawa"
   readings:
     - <a href="https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html">Mask R-CNN</a>
     - <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html">YOLO</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2">SSD</a>
@@ -154,16 +155,16 @@
 - date: 11/12
   lecturer: Subhransu
   title: Understanding and visualizing convnets
+  readings:
+        - <a href="https://arxiv.org/abs/1412.0035">Inverting deep representations</a>
 
 - date: 11/17
   lecturer: Subhransu
   title: Adversarial examples, texture synthesis, style transfer
   readings:
-    - <a href="https://arxiv.org/abs/1412.0035">Inverting deep representations</a>
-    - <a href="https://papers.nips.cc/paper/2015/hash/a5e00132373a7031000fd987a3c9f87b-Abstract.html">Texture synthesis &amp; style transfer using CNNs</a>, Gatys et al., 2015
-    - <a href="https://dl.acm.org/doi/abs/10.1145/3422622">Generative adversarial networks</a>, Goodfellow et al., 2020 (CACM version)
-    - <a href="https://dmitryulyanov.github.io/deep_image_prior">Deep image prior</a>, Ulyanov et al., 2017
-    - <a href="https://people.eecs.berkeley.edu/~efros/research/EfrosLeung.html">Texture synthesis by non-parametric sampling</a>, Efros &amp; Leung, 1999
+    - <a href="https://papers.nips.cc/paper/2015/hash/a5e00132373a7031000fd987a3c9f87b-Abstract.html">Texture synthesis &amp; style transfer using CNNs</a>
+    - <a href="https://dl.acm.org/doi/abs/10.1145/3422622">Generative adversarial networks</a>
+    - <a href="https://dmitryulyanov.github.io/deep_image_prior">Deep image prior</a>
 
 - date: 11/19
   lecturer: Subhransu
