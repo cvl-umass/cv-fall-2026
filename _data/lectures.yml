@@ -146,7 +146,7 @@
 - date: 11/10
   lecturer: Subhransu
   title:  Image segmentation and object detection II
-  slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec16%5Fdetection%5Fand%5Fsegmentation2%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQrTwduagewxTa2aD0iBZCypEgUCT%2D9Dky%2DSILr41meT6luAawa"
+  slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec16%5Fdetection%5Fand%5Fsegmentation2%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQrTwduagewxTa2aD0iBZCypEgUCT%2D9Dky%2DSILr41meT6luAaw"
   readings:
     - <a href="https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html">Mask R-CNN</a>
     - <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html">YOLO</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2">SSD</a>
