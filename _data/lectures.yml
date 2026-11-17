@@ -155,16 +155,18 @@
 - date: 11/12
   lecturer: Subhransu
   title: Understanding and visualizing convnets
+  slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec17%5Fvisualizing%5Fand%5Funderstanding%5Fcnns%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQr4CZUv9ElDTpB14v5WAK1yEgUC15mhl1A14CeUZLfmCbs3yQ"
   readings:
+        - <a href="https://arxiv.org/abs/1311.2901">Visualizing and understanding deep networks</a>
         - <a href="https://arxiv.org/abs/1412.0035">Inverting deep representations</a>
 
 - date: 11/17
   lecturer: Subhransu
   title: Adversarial examples, texture synthesis, style transfer
+  slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec18%5Fadversarial%5Fexamples%5Fand%5Fstyle%5Ftransfer%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQrGfI%5FhguuTSqh0MVeNkQJtEgUCF2nVrlKcFruw7npSfFOpBQ"
   readings:
     - <a href="https://papers.nips.cc/paper/2015/hash/a5e00132373a7031000fd987a3c9f87b-Abstract.html">Texture synthesis &amp; style transfer using CNNs</a>
     - <a href="https://dl.acm.org/doi/abs/10.1145/3422622">Generative adversarial networks</a>
-    - <a href="https://dmitryulyanov.github.io/deep_image_prior">Deep image prior</a>
 
 - date: 11/19
   lecturer: Subhransu
