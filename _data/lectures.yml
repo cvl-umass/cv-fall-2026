@@ -171,7 +171,9 @@
 - date: 11/19
   lecturer: Subhransu
   title: Recurrent neural networks
+  slides: "https://umass-my.sharepoint.com/:b:/r/personal/smaji_umass_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf%2Flec19%5F%20RNN%2Epdf&parent=%2Fpersonal%2Fsmaji%5Fumass%5Fedu%2FDocuments%2FTeaching%2Fcv%2Dslides%2Dfall%2D26%2Fpdf&share=cQrVA3Ywi0CQTLtoGY2bo8edEgUCD7mWccjl0XG8%5FEBqAskZ4Q"
   readings:
+    - <a href="https://cs231n.github.io/rnn/">RNNs</a>, <a href="https://dl.acm.org/doi/10.1162/neco.1997.9.8.1735">LSTMs</a>
 
 - date: 11/24
   title: No class &mdash; Wednesday schedule followed
