@@ -37,7 +37,7 @@ year: 2026
 
 <tr class="{{ event_type }}">
     <th scope="row">{{ display_date }}</th>
-    {% if lecture.title contains 'No class' or forloop.last %}
+    {% if lecture.title contains 'No class' %}
     <td colspan="2" align="center">{{ lecture.title }}</td>
     {% else %}
     <td>
